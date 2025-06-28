@@ -63,7 +63,7 @@ async def handle_chat_start():
     """Initialize chat session when a user connects."""
     # Initialize empty chat history
     cl.user_session.set("chat_history", [])
-    await cl.Message(content="Hello! I'm Maryam Shahid. How can I help you today?").send()
+    await cl.Message(content="Hello! I am your Crypto Agent made by Maryam Shahid ♥ ").send()
 
 
 @cl.on_message
